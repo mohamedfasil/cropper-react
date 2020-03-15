@@ -1,6 +1,6 @@
 {
   "name": "cropper-react",
-  "version": "0.0.1",
+  "version": "0.0.1a",
   "description": "CropperJs as react component using react hooks internally",
   "scripts": {
     "build": "rollup -c",
@@ -14,7 +14,9 @@
   "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
   "files": [
-    "build"
+    "build*",
+    "README*",
+    "docs*"
   ],
   "devDependencies": {
     "@babel/core": "^7.8.7",
