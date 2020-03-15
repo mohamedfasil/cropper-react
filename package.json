@@ -1,7 +1,7 @@
 {
   "name": "cropper-react",
   "version": "0.0.1",
-  "description": "CropperJs as react component, supports react hooks",
+  "description": "CropperJs as react component using react hooks internally",
   "scripts": {
     "build": "rollup -c",
     "storybook": "start-storybook -p 9009 -s public",
