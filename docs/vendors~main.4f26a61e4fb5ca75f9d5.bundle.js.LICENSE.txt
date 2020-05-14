@@ -15,8 +15,15 @@ object-assign
  */
 
 /*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
+ * @license  MIT
+ */
+
+/*!
  * https://github.com/es-shims/es5-shim
- * @license es5-shim Copyright 2009-2015 by contributors, MIT License
+ * @license es5-shim Copyright 2009-2020 by contributors, MIT License
  * see https://github.com/es-shims/es5-shim/blob/master/LICENSE
  */
 
@@ -44,8 +51,6 @@ object-assign
  * Released under the MIT License.
  */
 
-/*! https://mths.be/he v1.2.0 by @mathias | MIT license */
-
 /**
  * @license
  * Lodash <https://lodash.com/>
@@ -55,7 +60,7 @@ object-assign
  * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
  */
 
-/** @license React v0.19.0
+/** @license React v0.19.1
  * scheduler.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -64,7 +69,7 @@ object-assign
  * LICENSE file in the root directory of this source tree.
  */
 
-/** @license React v16.13.0
+/** @license React v16.13.1
  * react-dom.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -73,7 +78,7 @@ object-assign
  * LICENSE file in the root directory of this source tree.
  */
 
-/** @license React v16.13.0
+/** @license React v16.13.1
  * react-is.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -82,7 +87,7 @@ object-assign
  * LICENSE file in the root directory of this source tree.
  */
 
-/** @license React v16.13.0
+/** @license React v16.13.1
  * react.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -115,3 +120,7 @@ object-assign
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+
+//! stable.js 0.1.8, https://github.com/Two-Screen/stable
+
+//! © 2018 Angry Bytes and contributors. MIT licensed.
