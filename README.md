@@ -8,9 +8,17 @@
 $ npm install cropper-react
 ```
 
+You need to import cropper styles from cropperjs
+
+```js
+import '../node_modules/cropperjs/dist/cropper.css';
+```
+
+
 ### Usage
 ```js
 import Cropper from "cropper-react";
+import '../node_modules/cropperjs/dist/cropper.css';
 
 const buttonStyle = {
   border: '1px solid #ccc',
