@@ -1,6 +1,6 @@
 {
   "name": "cropper-react",
-  "version": "0.0.1a",
+  "version": "0.0.1b",
   "description": "CropperJs as react component using react hooks internally",
   "scripts": {
     "build": "rollup -c",
