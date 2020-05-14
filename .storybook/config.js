@@ -1,7 +1,7 @@
 import { addDecorator, addParameters, configure } from '@storybook/react';
 
 import { create } from "@storybook/theming";
-import { withInfo } from '@storybook/addon-info';
+import { DocsPage, DocsContainer } from '@storybook/addon-docs/blocks';
 
 addParameters({
   options: {
@@ -13,6 +13,10 @@ addParameters({
     })
   }
 });
-addDecorator(withInfo);
-
+addParameters({
+  docs: {
+    container: DocsContainer,
+    page: DocsPage,
+  },
+});
 configure(require.context('../src', true, /\.stories\.tsx$/), module);

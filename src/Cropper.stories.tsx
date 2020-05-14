@@ -16,7 +16,8 @@ const buttonStyle = {
 export const defaultView = () => {
   const image = useRef<HTMLImageElement>();
   const cropImage = useCallback(() => {
-    console.log(((image.current as any).cropper as NativeCropper).getCroppedCanvas({ width: 624 }).toDataURL('image/jpeg', 0.9))
+    const dataUrl = ((image.current as any).cropper as NativeCropper).getCroppedCanvas({ width: 624 }).toDataURL('image/jpeg', 0.9);
+    console.log(dataUrl);
   }, [image]);
   return (<div>
     <div style={{ height: '500px' }}>
